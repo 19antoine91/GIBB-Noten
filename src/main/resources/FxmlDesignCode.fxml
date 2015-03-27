@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:controller="FxmlLoader" ymlns:fx="http://javafx.com/fxml"
+	alignment="center" hgap="10" vgap="10">
+	<padding>
+		<insets top="25" right="25" bottom="10" left="25" />
+	</padding>
+	<Text text="GIBB Noten Way-Up" GridPane.columnIndex="0"
+		GridPane.rowIndex="0" GridPane.columnSpan="2" />
+	<Button text="Semester 1" GridPane.columnIndex="1"
+		GridPane.rowIndex="1" onAction="#" />
+
+	<Button text="Semester 2" GridPane.columnIndex="2"
+		GridPane.rowIndex="1" onAction="#" />
+
+	<Button text="Semester 3" GridPane.columnIndex="1"
+		GridPane.rowIndex="2" onAction="#" />
+
+	<Button text="Semester 4" GridPane.columnIndex="2"
+		GridPane.rowIndex="2" onAction="#" />
+</GridPane>
